@@ -1,0 +1,26 @@
+.DownloadHeader {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.mainDonwloadCont{
+    position: relative;
+}
+.descDownload {
+  font-size: 1rem;
+}
+.DownloadImage {
+  display: flex;
+}
+.DownloadMain {
+  width: 20%;
+  margin-left: 49%;
+  padding: 0.5rem;
+  position:absolute;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.DownloadImage > img {
+  max-width: 50%;
+}
+.DownloadImage > img:hover {
+  cursor: pointer;
+}
