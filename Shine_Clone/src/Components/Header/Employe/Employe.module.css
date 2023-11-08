@@ -1,0 +1,24 @@
+.employeMain {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: 16%;
+  margin-left: 66%;
+  padding: 0.5rem;
+  border-radius: 8px;
+  display: flex;
+  position:absolute;
+}
+.mainEmploye {
+    position: relative;
+}
+.ulList {
+  margin: 0.5rem 0;
+}
+.ListOfPages {
+  list-style: none;
+  margin-left: 0.3rem;
+}
+.ListOfPages:hover {
+  border-left: 2px solid #7c44ff;
+  color: #7c44ff;
+  transition: all 0.1s ease-in-out;
+}

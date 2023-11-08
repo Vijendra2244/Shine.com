@@ -1,0 +1,33 @@
+.headerMain {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  background-color: #f2f3f8;
+  align-items: center;
+}
+.headerRight {
+  width: 30%;
+  display: flex;
+  margin-left: 60%;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.headerRight :hover {
+  cursor: pointer;
+}
+
+.headerItem{
+    display: flex;
+    align-items: center;
+
+}
+
+.headerItem:hover{
+   border-bottom: 2px solid #7C44FF;
+   transition: all 0.1s ease-in;
+}
+.paraTagOfHeaders{
+    font-weight: bold;
+    color:  #5d5d60e8;
+}
