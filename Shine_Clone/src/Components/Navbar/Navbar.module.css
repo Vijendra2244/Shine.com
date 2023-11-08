@@ -1,0 +1,57 @@
+.navbarMain {
+  display: flex;
+  align-items: center;
+ justify-content: space-evenly;
+}
+
+.CompanyImage {
+  max-width: 50%;
+}
+.inputOfNavbar {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 4px;
+  overflow: hidden;
+  height: 40px;
+  width: 30%;
+ 
+}
+.inputOfSearchBar {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  flex: 1;
+}
+.SearchButton {
+  background-color: #7c44ff;
+  font-size: 1.3rem;
+  padding: 0.4rem;
+  color: white;
+  height: 40px;
+}
+.NavbarRigthSection {
+  display: flex;
+  width: 25%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.registerButton {
+  background-color: #7c44ff;
+  color: white;
+  padding: 0.1rem 0.8rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.loginButton {
+  border: 1px solid #7c44ff;
+  color: #7c44ff;
+  padding: 0.1rem 0.8rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.loginButton:hover {
+  background-color: #7c44ff;
+  color: white;
+  transition: all 0.5s ease-in;
+}
