@@ -1,6 +1,7 @@
 import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
 import Navigation from "./Components/Navigation/Navigation";
+import Swiper from "./Components/Swiper/SwiperImage";
 import Trending from "./Components/Trending/Trending";
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Trending />
       <Navigation />
+      <Swiper/>
     </>
   );
 }
