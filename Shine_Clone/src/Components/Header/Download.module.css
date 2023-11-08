@@ -4,7 +4,7 @@
 }
 .mainDonwloadCont{
     position: relative;
-    background-color: white;
+    
 }
 .descDownload {
   font-size: 1rem;
@@ -17,6 +17,7 @@
   margin-left: 49%;
   padding: 0.5rem;
   position:absolute;
+  background-color: white;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .DownloadImage > img {
