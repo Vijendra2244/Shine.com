@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsSearch } from "react-icons/bs";
 import { GrNotification } from "react-icons/gr";
 import { BsCart3 } from "react-icons/bs";
 import styles from "./Navbar.module.css";
+import Login from "../Login/Login";
 
 function Navbar() {
+  const [login, setLogin] = useState(false);
+  const handleLoginPage = () => {
+    setLogin(true);
+  };
   return (
     <>
       <div className={styles.navbarMain}>
@@ -26,12 +31,15 @@ function Navbar() {
           </button>
         </div>
         <div className={styles.NavbarRigthSection}>
-          <button className={styles.loginButton} >Login</button>
-          <button className={styles.registerButton} >Register</button>
+          <button onClick={handleLoginPage} className={styles.loginButton}>
+            Login
+          </button>
+          <button className={styles.registerButton}>Register</button>
           <GrNotification />
           <BsCart3 />
         </div>
       </div>
+      {login && <Login  /> }
     </>
   );
 }
