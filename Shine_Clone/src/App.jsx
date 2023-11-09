@@ -1,4 +1,5 @@
 import Comapny from "./Components/CompanyCool/Comapny";
+import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
 import Navigation from "./Components/Navigation/Navigation";
@@ -13,6 +14,7 @@ function App() {
       <Navigation />
       <Swiper />
       <Comapny/>
+      <Footer/>
     </>
   );
 }
