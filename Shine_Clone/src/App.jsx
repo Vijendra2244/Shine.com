@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Trending />
       <Navigation />
-      <Swiper/>
+      <Swiper />
     </>
   );
 }
