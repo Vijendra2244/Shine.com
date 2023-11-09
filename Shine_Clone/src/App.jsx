@@ -1,3 +1,4 @@
+import Comapny from "./Components/CompanyCool/Comapny";
 import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
 import Navigation from "./Components/Navigation/Navigation";
@@ -11,6 +12,7 @@ function App() {
       <Trending />
       <Navigation />
       <Swiper />
+      <Comapny/>
     </>
   );
 }
