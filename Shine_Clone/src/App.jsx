@@ -1,4 +1,5 @@
 import Comapny from "./Components/CompanyCool/Comapny";
+import CopyRight from "./Components/Copyright/CopyRight";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
@@ -13,8 +14,9 @@ function App() {
       <Trending />
       <Navigation />
       <Swiper />
-      <Comapny/>
-      <Footer/>
+      <Comapny />
+      <Footer />
+      <CopyRight />
     </>
   );
 }
