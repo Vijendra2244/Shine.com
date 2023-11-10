@@ -1,11 +1,14 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import styles from "./Login.module.css";
+import { LoginContext } from "../../Context_Api/Context";
 
 function Login() {
-  const [close, setClose] = useState(false);
+  const { login, setLogin } = useContext(LoginContext);
   const handleClose = () => {
-    setClose(null);
-    console.log("here")
+    setLogin(false);
+    if (login === false) {
+      return null;
+    }
   };
   return (
     <div className={styles.mainContainer}>
@@ -30,11 +33,10 @@ function Login() {
           <p className={styles.forgot}>Forgot Password</p>
         </div>
         <button className={styles.loginBtn}>Login</button>
-        <button onClose={handleClose} className={styles.cutButton}>
+        <button onClick={handleClose} className={styles.cutButton}>
           X
         </button>
       </div>
-    
     </div>
   );
 }
