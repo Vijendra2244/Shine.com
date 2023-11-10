@@ -32,6 +32,7 @@ function Login() {
           </div>
           <p className={styles.forgotOne}>Forgot Password</p>
         </div>
+
         <button className={styles.loginBtnOne}>Login</button>
         <button onClick={handleClose} className={styles.cutButtonOne}>
           X
