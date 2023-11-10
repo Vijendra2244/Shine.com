@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Footer.module.css";
 import { FaAssistiveListeningSystems } from "react-icons/fa";
 
+
 function Footer() {
   const jobSeeker = [
     { label: "Register/Login" },
@@ -34,6 +35,8 @@ function Footer() {
   ];
   return (
     <>
+     
+
       <div className={styles.FooterLinksFoot}>
         <div >
           <div>
