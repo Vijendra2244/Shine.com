@@ -2,6 +2,8 @@ import Applicants from "./Components/Applicants/Applicants";
 import Comapny from "./Components/CompanyCool/Comapny";
 import Conduct from "./Components/ConductHackathon/Conduct";
 import CopyRight from "./Components/Copyright/CopyRight";
+// import AllRoutes from "./Components/DomainJobs/AllRoutes/AllRoutes";
+import Domain from "./Components/DomainJobs/AllRoutes/Domain";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import LatestBlog from "./Components/LatestBlog/LatestBlog";
@@ -23,11 +25,11 @@ function App() {
       <Applicants/>
       <Remote/>
       <Walkin/>
+      <Domain/>
       <Conduct/>
       <LatestBlog/>
       <Footer />
       <CopyRight />
-
     </>
   );
 }

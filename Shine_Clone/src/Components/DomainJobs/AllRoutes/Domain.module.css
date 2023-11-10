@@ -1,0 +1,34 @@
+.domainJobsContainer{
+    text-align: center;
+    font-size: 2.9rem;
+    color: rgb(23, 21, 21);
+}
+.linkDomainJobs{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.linkPathOfDomain{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(69, 67, 67);
+}
+.linkPathOfDomain:hover{
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid #7c44ff;
+}
+.mainOfItJobs{
+    width: 10%;
+    margin: auto;
+}
+.itOfJobs{
+    color: #7c44ff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    background-color: transparent;
+}
