@@ -1,4 +1,4 @@
-.container {
+.containerOne {
   width: 50%;
   margin: auto;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -10,22 +10,22 @@
   top: 2rem;
   background-color: white;
 }
-.headingSign {
+.headingSignOne {
   font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
-.mainContainer {
+.mainContainerOne {
   background-color: white;
   position: relative;
 }
-.entryArea {
+.entryAreaOne {
   position: relative;
   height: 80px;
   line-height: 80px;
   margin: auto;
 }
-.input {
+.inputOne {
   position: absolute;
   width: 90%;
   outline: none;
@@ -38,7 +38,7 @@
   transition: all 0.1s ease-in-out;
   z-index: 1111;
 }
-.labelLine {
+.labelLineOne {
   position: absolute;
   font-size: 1rem;
   color: grey;
@@ -47,14 +47,14 @@
   background-color: white;
   transition: all 0.2 ease-in-out;
 }
-.input:focus,
-.input:valid {
+.inputOne:focus,
+.inputOne:valid {
   color: black;
   font-weight: bold;
   border: 1px solid #7c44ff;
 }
-.input:focus + .labelLine,
-.input:valid + .labelLine {
+.inputOne:focus + .labelLineOne,
+.inputOne:valid + .labelLineOne {
   color: #7c44ff;
   height: 30px;
   line-height: 30px;
@@ -63,16 +63,16 @@
   transition: all 0.1s ease-in;
   z-index: 1111;
 }
-.keepsignedUp {
+.keepsignedUpOne {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.forgot {
+.forgotOne {
   margin-right: 10%;
   color: #7c44ff;
 }
-.loginBtn {
+.loginBtnOne {
   width: 20%;
   margin-left: 36%;
   background-color: #7c44ff;
@@ -81,13 +81,13 @@
   color: white;
   font-weight: 600;
 }
-.loginBtn:hover {
+.loginBtnOne:hover {
   background-color: #6e35f4;
   color: white;
   transition: all 0.5s ease-in;
 }
 
-.cutButton {
+.cutButtonOne {
   position: absolute;
   top: 2%;
   left: 90%;
