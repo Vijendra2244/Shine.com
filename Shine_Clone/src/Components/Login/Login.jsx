@@ -11,31 +11,30 @@ function Login() {
     }
   };
   return (
-    <div className={styles.mainContainer}>
-      <div className={styles.container}>
-        <h1 className={styles.headingSign}>Sign-in</h1>
+    <div className={styles.mainContainerOne}>
+      <div className={styles.containerOne}>
+        <h1 className={styles.headingSignOne}>Sign-in</h1>
 
-        <div className={styles.entryArea}>
-          <input className={styles.input} type="text" required />
-          <div className={styles.labelLine}>Email</div>
+        <div className={styles.entryAreaOne}>
+          <input className={styles.inputOne} type="text" required />
+          <div className={styles.labelLineOne}>Email</div>
         </div>
         <br />
 
-        <div className={styles.entryArea}>
-          <input className={styles.input} type="password" required />
-          <div className={styles.labelLine}>Password</div>
+        <div className={styles.entryAreaOne}>
+          <input className={styles.inputOne} type="password" required />
+          <div className={styles.labelLineOne}>Password</div>
         </div>
-        <div className={styles.keepsignedUp}>
+        <div className={styles.keepsignedUpOne}>
           <div>
             <input type="checkbox" name="checkbox" id="check" />
             <label htmlFor="check">Keep me Signed in </label>
           </div>
-          <p className={styles.forgot}>Forgot Password</p>
+          <p className={styles.forgotOne}>Forgot Password</p>
         </div>
-        <button className={styles.loginBtn}>Login</button>
-        <button onClick={handleClose} className={styles.cutButton}>
-          X
-        </button>
+
+        <button className={styles.loginBtnOne}>Login</button>
+        <button onClick={handleClose} className={styles.cutButton}>X</button>
       </div>
     </div>
   );
