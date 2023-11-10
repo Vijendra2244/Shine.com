@@ -1,0 +1,64 @@
+.mainPremiumdata{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4rem;
+    margin: auto;
+    padding: 2rem;
+}
+.premiumMainCont{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    overflow: hidden;
+   
+}
+.imgOfPremium{
+    width: 100%;
+}
+.headingOfPremium{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 2.4rem;
+    
+}
+.containerOfPremiumCourses{
+    padding: 0.8rem;
+}
+.buttonOfExperts{
+    display: flex;
+    justify-content: space-between;
+}
+.buttonOfPremiumExplore{
+   border: none;
+   color: #7c44ff;
+   font-weight: bold;
+   outline: none; 
+   background-color: transparent;
+   cursor: pointer;
+}
+.buttonOfPremiumExpert{
+    border: none;
+   background-color: #7c44ff;
+   padding: 0.4rem;
+   border-radius: 4px;
+   color: white;
+    font-weight: bold;
+    outline: none; 
+    cursor: pointer;
+ }
+ .descriptionOfPremium{
+    color: grey;
+ }
+ .viewBtnOfPremium{
+   width: 10%;
+   margin: auto;
+ }
+ .viewBtnOfPremiumCourses{
+   color:#7c44ff;
+   font-weight: bold;
+   cursor: pointer;
+   border: none;
+   outline: none;
+  
+   background-color: transparent;
+ }

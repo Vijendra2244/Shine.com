@@ -58,7 +58,7 @@ function Footer() {
         <div>
             <h1 className={styles.headingOfFooterFoot}>JOB SEEKERS</h1>
           {jobSeeker.map((item, index) => (
-            <ul  ket={index}>
+            <ul  key={index}>
               <a href="#">
                 <li className={styles.listOfJobSeekerFoot}>{item.label}</li>
               </a>
