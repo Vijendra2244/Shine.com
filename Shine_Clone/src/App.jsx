@@ -1,5 +1,6 @@
 import Applicants from "./Components/Applicants/Applicants";
 import Comapny from "./Components/CompanyCool/Comapny";
+import Conduct from "./Components/ConductHackathon/Conduct";
 import CopyRight from "./Components/Copyright/CopyRight";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
@@ -21,8 +22,10 @@ function App() {
       <Applicants/>
       <Remote/>
       <Walkin/>
+      <Conduct/>
       <Footer />
       <CopyRight />
+
     </>
   );
 }
