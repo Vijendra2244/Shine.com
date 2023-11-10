@@ -33,7 +33,7 @@ function Navbar() {
           </button>
         </div>
         <div className={styles.NavbarRigthSection}>
-          <button onClick={handleLogin} className={styles.loginButton}>
+          <button onClick={handleLogin}  className={styles.loginButton}>
             Login
           </button>
           <button className={styles.registerButton}>Register</button>
@@ -41,7 +41,8 @@ function Navbar() {
           <BsCart3 />
         </div>
       </div>
-      {login && <Login />}
+       {login && <Login />}
+    
     </>
   );
 }
