@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { BsSearch } from "react-icons/bs";
 import { GrNotification } from "react-icons/gr";
 import { BsCart3 } from "react-icons/bs";
 import styles from "./Navbar.module.css";
+import { LoginContext } from "../../Context_Api/Context";
+import Login from "./Components/Login"
 
 function Navbar() {
+  const {login,setLogin} = useContext(LoginContext)
+
+  const handleLogin = ()=>{
+    setLogin(true)
+  }
   return (
     <>
       <div className={styles.navbarMain}>
@@ -26,12 +33,13 @@ function Navbar() {
           </button>
         </div>
         <div className={styles.NavbarRigthSection}>
-          <button className={styles.loginButton} >Login</button>
+          <button onClick={handleLogin} className={styles.loginButton} >Login</button>
           <button className={styles.registerButton} >Register</button>
           <GrNotification />
           <BsCart3 />
         </div>
       </div>
+      {login && <Login/>}
     </>
   );
 }
