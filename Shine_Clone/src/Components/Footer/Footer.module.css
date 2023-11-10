@@ -1,0 +1,46 @@
+.FooterLinks{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:2rem ;
+    margin-bottom: 2rem;
+}
+.shineImage {
+     width: 30%;
+}
+.shinePara{
+
+    font-size: 1.1rem;
+    color:grey;
+    
+}
+.downlaodHeading{
+    font-weight: bold;
+    color: grey;
+
+
+}
+.imagesOfDown{
+    gap: 2rem;
+    margin: 0.8rem auto;
+    display: flex;
+}
+.imagesForDownLoad{
+    width: 10%;
+}
+.listOfJobSeeker{
+    font-size: 0.9rem;
+    color: #7c44ff;   
+}
+.UlList{
+    list-style-type: disc;
+    color: grey;
+}
+
+.headingOfFooter{
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0.6rem 0;
+  color:rgb(44, 42, 42);
+}

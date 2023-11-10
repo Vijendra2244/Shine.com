@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
-import { ChakraProvider } from "@chakra-ui/react";
+import { LoginContextProvider } from "./Context_Api/Context.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <ChakraProvider>
+  <LoginContextProvider>
     <App />
-  </ChakraProvider>
+  </LoginContextProvider>
 );
