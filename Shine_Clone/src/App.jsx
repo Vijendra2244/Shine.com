@@ -9,6 +9,7 @@ import Header from "./Components/Header/Header";
 import LatestBlog from "./Components/LatestBlog/LatestBlog";
 import Navbar from "./Components/Navbar/Navbar";
 import Navigation from "./Components/Navigation/Navigation";
+import Premium from "./Components/PremiumService/Premium";
 import Remote from "./Components/RemoteJobs/Remote";
 import Swiper from "./Components/Swiper/SwiperImage";
 import Trending from "./Components/Trending/Trending";
@@ -27,6 +28,7 @@ function App() {
       <Walkin/>
       <Domain/>
       <Conduct/>
+      <Premium/>
       <LatestBlog/>
       <Footer />
       <CopyRight />
