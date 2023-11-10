@@ -1,7 +1,9 @@
 .mainCardContainer {
   width: 25%;
   padding: 0.8rem;
+  cursor: pointer;
  border-radius: 8px;
+ background-color: white;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .haedingOfCompany {
@@ -47,5 +49,6 @@ gap: 1rem;
  border-radius: 8px;
  font-weight: bold;
  color: #7c44ff;
+ cursor: pointer;
  background-color: transparent;
 }

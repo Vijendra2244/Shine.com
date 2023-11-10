@@ -1,3 +1,4 @@
+import Applicants from "./Components/Applicants/Applicants";
 import Comapny from "./Components/CompanyCool/Comapny";
 import CopyRight from "./Components/Copyright/CopyRight";
 import Footer from "./Components/Footer/Footer";
@@ -15,6 +16,7 @@ function App() {
       <Navigation />
       <Swiper />
       <Comapny />
+      <Applicants/>
       <Footer />
       <CopyRight />
     </>

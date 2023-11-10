@@ -1,0 +1,30 @@
+.mainApplicant {
+  background-color: #f4f2ff;
+  padding: 1rem;
+}
+.headingOfEarly {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 2.8rem;
+}
+.cardContainerEarly {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+  justify-content: space-around;
+}
+.buttonView {
+  width: 10%;
+  margin: auto;
+}
+.viewBtnForEarly {
+    cursor: pointer;
+  padding: 0.8rem;
+  border-radius: 8px;
+  color: #7c44ff;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-weight: bold;
+}
