@@ -1,46 +1,42 @@
-.FooterLinks{
-    width: 90%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    gap:2rem ;
-    margin-bottom: 2rem;
+.FooterLinksFoot {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem 0.5rem;
+  margin-bottom: 2rem;
 }
-.shineImage {
-     width: 30%;
+.shineImageFoot {
+  width: 30%;
 }
-.shinePara{
-
-    font-size: 1.1rem;
-    color:grey;
-    
+.shineParaFoot {
+  font-size: 1.1rem;
+  color: grey;
 }
-.downlaodHeading{
-    font-weight: bold;
-    color: grey;
-
-
+.downlaodHeadingFoot {
+  font-weight: bold;
+  color: rgb(72, 67, 67);
+  font-size: 1.2rem;
 }
-.imagesOfDown{
-    gap: 2rem;
-    margin: 0.8rem auto;
-    display: flex;
+.imagesOfDownFoot {
+  gap: 2rem;
+  margin: 0.8rem auto;
+  display: flex;
 }
-.imagesForDownLoad{
-    width: 10%;
+.imagesForDownLoadFoot {
+  width: 10%;
 }
-.listOfJobSeeker{
-    font-size: 0.9rem;
-    color: #7c44ff;   
-}
-.UlList{
-    list-style-type: disc;
-    color: grey;
+.listOfJobSeekerFoot {
+  font-size: 0.9rem;
+  color: #7c44ff;
 }
 
-.headingOfFooter{
+.headingOfFooterFoot {
   font-size: 1rem;
   font-weight: 500;
   margin: 0.6rem 0;
-  color:rgb(44, 42, 42);
+  color: rgb(44, 42, 42);
+}
+ul > a {
+  text-decoration: none;
 }

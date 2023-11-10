@@ -3,13 +3,13 @@ import styles from "./Jobs.module.css"
 
 function Jobs() {
   return (
-    <div className={styles.main}>
-      <div className={styles.jobsMain}>
+    <div className={styles.mainNavigation}>
+      <div className={styles.jobsMainNavigation}>
         <ul>
-          <li className={styles.listStyle}>Search</li>
-          <li className={styles.listStyle}>Search by Categories</li>
-          <li className={styles.listStyle}>Job Search</li>
-          <li className={styles.listStyle}>Job Alert</li>
+          <li className={styles.listStyleNavigation}>Search</li>
+          <li className={styles.listStyleNavigation}>Search by Categories</li>
+          <li className={styles.listStyleNavigation}>Job Search</li>
+          <li className={styles.listStyleNavigation}>Job Alert</li>
         </ul>
       </div>
     </div>

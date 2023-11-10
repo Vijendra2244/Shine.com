@@ -20,24 +20,24 @@ function Navigation() {
   };
   return (
     <>
-      <div className={styles.navigationMain}>
+      <div className={styles.navigationMainBars}>
         <div>
-          <p className={styles.NavigationPara}>HOME</p>
+          <p className={styles.NavigationParaBars}>HOME</p>
         </div>
         <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-          <p className={styles.NavigationPara}>JOBS</p>
+          <p className={styles.NavigationParaBars}>JOBS</p>
         </div>
         <div  onMouseEnter={handleMouseEnterSeeking} onMouseLeave={handleMouseLeaveSeeking}>
-          <p className={styles.NavigationPara}>JOB SEEKING ASSISTANCE</p>
+          <p className={styles.NavigationParaBars}>JOB SEEKING ASSISTANCE</p>
         </div>
         <div>
-          <p className={styles.NavigationPara}>COURSES</p>
+          <p className={styles.NavigationParaBars}>COURSES</p>
         </div>
         <div>
-          <p className={styles.NavigationPara}>CAREER GUIDANCE</p>
+          <p className={styles.NavigationParaBars}>CAREER GUIDANCE</p>
         </div>
         <div>
-          <p className={styles.NavigationPara}>BLOG</p>
+          <p className={styles.NavigationParaBars}>BLOG</p>
         </div>
       </div>
       {jobs && <Jobs />}

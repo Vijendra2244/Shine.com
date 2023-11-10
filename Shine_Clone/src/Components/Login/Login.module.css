@@ -79,6 +79,8 @@
   padding: 0.3rem 1rem;
   border-radius: 4px;
   color: white;
+  border: none;
+  outline: none;
   font-weight: 600;
 }
 .loginBtnOne:hover {

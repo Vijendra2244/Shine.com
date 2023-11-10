@@ -1,4 +1,4 @@
-.navigationMain {
+.navigationMainBars {
     display: flex;
     
     width: 50%;
@@ -6,10 +6,10 @@
     margin-left: 6.5%;
     margin-top: 1rem;
 }
-.NavigationPara{
+.NavigationParaBars{
     font-weight: 500;
 }
-.NavigationPara:hover{
+.NavigationParaBars:hover{
     cursor: pointer ;
     border-bottom: 2px solid#7c44ff;
     transition: all 0.2s ease-in-out;

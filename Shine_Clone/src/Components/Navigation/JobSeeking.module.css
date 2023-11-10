@@ -1,8 +1,8 @@
-.jobSeekingMain {
+.jobSeekingMainJobers {
   position: relative;
   z-index: 999;
 }
-.seekingMain {
+.seekingMainJobers {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   position: absolute;
   padding: 0.6rem;
@@ -10,10 +10,10 @@
   background-color: white;
   left: 18%;
 }
-.listStyle {
+.listStyleJobers {
   list-style: none;
 }
-.listStyle:hover {
+.listStyleJobers:hover {
   color: #7c44ff;
   border-left: 2px solid #7c44ff;
 }

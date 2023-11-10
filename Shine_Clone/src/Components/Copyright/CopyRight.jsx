@@ -3,8 +3,8 @@ import styles from "./CopyRight.module.css";
 
 function CopyRight() {
   return (
-    <div className={styles.copyRightMain}>
-      <div className={styles.queries}>
+    <div className={styles.copyRightMainCopy}>
+      <div className={styles.queriesCopy}>
        <a href="#"> <p> Feedback |  </p></a>
        <a href="#"> <p> FAQs |  </p></a>
        <a href="#"> <p> About Us |  </p></a>
@@ -18,7 +18,7 @@ function CopyRight() {
        <a href="#"> <p> Report a Job Posting</p></a>
       </div>
        <div>
-         <p className={styles.copy}>  &copy; 2023 HT Media Limited</p>
+         <p className={styles.copyCopy}>  &copy; 2023 HT Media Limited</p>
        </div>
     </div>
   );

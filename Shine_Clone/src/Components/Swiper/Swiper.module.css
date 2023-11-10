@@ -1,9 +1,9 @@
-.imageSwiper{
+.imageSwiperStyleSwipe{
     width: 100%;
 }
-.swiperMain{
+.swiperMainStyleSwipe{
     margin-top: 0.5rem;
 }
-.swiperMain:hover{
+.swiperMainStyleSwipe:hover{
     cursor: pointer;
 }

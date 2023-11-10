@@ -1,19 +1,19 @@
-.copyRightMain {
+.copyRightMainCopy {
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
   margin: 2rem auto;
 }
-.queries{
+.queriesCopy{
    display: flex;
 }
-.queries >a>p {
+.queriesCopy >a>p {
     font-size: 0.8rem;
     color: grey;
     margin-left: 0.2rem;
 }
-.copy{
+.copyCopy{
    color: grey;
    font-size: 0.9rem;
 }

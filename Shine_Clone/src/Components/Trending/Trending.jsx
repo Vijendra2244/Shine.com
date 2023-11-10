@@ -3,11 +3,11 @@ import styles from "./Trending.module.css"
 function Trending() {
   return (
     <>
-     <div className={styles.trendingMain}>
+     <div className={styles.trendingMainTrending}>
         <div>
-            <h2 className={styles.trendingHeading}>Trending:</h2>
+            <h2 className={styles.trendingHeadingTrending}>Trending:</h2>
         </div>
-        <div className={styles.trendList}>
+        <div className={styles.trendListTrending}>
             <p>Node js |</p>
             <p>Android |</p>
             <p>Finance |</p>
@@ -15,7 +15,7 @@ function Trending() {
             <p>Business Development</p>
         </div>
      </div>
-     <hr className={styles.trendHrLine}/>
+     <hr className={styles.trendHrLineTrending}/>
     </>
   )
 }
