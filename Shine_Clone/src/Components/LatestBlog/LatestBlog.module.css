@@ -1,0 +1,47 @@
+.blogMain{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(21, 20, 20);
+}
+.blogContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 70%;
+    gap: 1.5rem;
+    margin: auto;
+}
+.imgOfBlog{
+    max-width: 100%;
+}
+.oneBlog{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 4px;
+   
+}
+.descOfBlog{
+    font-size: 1rem;
+    margin-left: 0.6rem;
+}
+.paraOfBlog{
+    margin-left: 0.6rem;
+    color: grey;
+    font-weight: lighter;
+}
+.viewButtonBlog{
+    width: 6%;
+    margin: auto;
+}
+.viewButtonAll{
+  color: #7c44ff;
+ border: none;
+ outline: none;
+ font-weight: bold;
+ background-color: transparent;
+ margin: 2rem auto;
+ margin-bottom: 4rem;
+ cursor: pointer;
+
+}
