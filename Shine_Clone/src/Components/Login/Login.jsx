@@ -34,7 +34,7 @@ function Login() {
         </div>
 
         <button className={styles.loginBtnOne}>Login</button>
-        <button onClick={handleClose} className={styles.cutButton}>X</button>
+        <button onClick={handleClose} className={styles.cutButtonOne}>X</button>
       </div>
     </div>
   );
