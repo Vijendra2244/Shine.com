@@ -8,6 +8,7 @@ import Navigation from "./Components/Navigation/Navigation";
 import Remote from "./Components/RemoteJobs/Remote";
 import Swiper from "./Components/Swiper/SwiperImage";
 import Trending from "./Components/Trending/Trending";
+import Walkin from "./Components/WalkinJobs/Walkin";
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
       <Comapny />
       <Applicants/>
       <Remote/>
+      <Walkin/>
       <Footer />
       <CopyRight />
     </>

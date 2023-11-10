@@ -1,0 +1,31 @@
+.mainWalkin {
+    background-color: #f4f2ff;
+    padding: 1rem;
+  }
+  .headingOfWalkin {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2.8rem;
+  }
+  .cardContainerWalkin {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+    justify-content: space-around;
+  }
+  .buttonViewWalkin {
+    width: 10%;
+    margin: auto;
+  }
+  .viewBtnForWalkin{
+      cursor: pointer;
+    padding: 0.8rem;
+    border-radius: 8px;
+    color: #7c44ff;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-weight: bold;
+  }
+  
