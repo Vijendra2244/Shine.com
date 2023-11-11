@@ -9,6 +9,7 @@ import Header from "./Components/Header/Header";
 import LatestBlog from "./Components/LatestBlog/LatestBlog";
 import Navbar from "./Components/Navbar/Navbar";
 import Navigation from "./Components/Navigation/Navigation";
+import PopularCourses from "./Components/PopularCourses/PopularCourses";
 import Premium from "./Components/PremiumService/Premium";
 import Remote from "./Components/RemoteJobs/Remote";
 import Swiper from "./Components/Swiper/SwiperImage";
@@ -29,6 +30,7 @@ function App() {
       <Domain/>
       <Conduct/>
       <Premium/>
+      <PopularCourses/>
       <LatestBlog/>
       <Footer />
       <CopyRight />

@@ -1,0 +1,65 @@
+.cardOfPopularCourses {
+  width: 25%;
+  background-color: white;
+  padding: 0.8rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.courses {
+  margin: 0;
+  color: grey;
+}
+.popularCoursesMainConatiner {
+  display: flex;
+  padding: 0.4rem;
+}
+.imageOfJava {
+  border-radius: 100%;
+}
+.ratingOfCourses {
+  text-align: center;
+}
+.headingOfCourses {
+  color: #38404c;
+  margin: 0;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.rightOfPopularCourses {
+  margin-left: 0.8rem;
+}
+.prepTrainOfCourses {
+  opacity: 0.7;
+  margin: 0;
+}
+.duration {
+  margin: 0.3rem;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+.priceOfCourses {
+  font-size: 1.2rem;
+  color: #38404c;
+}
+.ButtonOfPopularCourses {
+  display: flex;
+  justify-content: space-between;
+}
+.btnOfExplore {
+  color: #7c44ff;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.btnOfBuyNow {
+  background-color: #7c44ff;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  padding: 0.4rem 0.9rem;
+  cursor: pointer;
+}
