@@ -1,0 +1,82 @@
+.homeInfosys{
+    margin: auto;
+    width: 80%;
+}
+.infosysImage{
+    max-width: 100%;
+}
+.containrOfHomePage{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.leftSideInfosys{
+    width: 70%;
+}
+
+.rightSideInfosys{
+    width: 50%;
+   
+}
+.paraOfInfosys{
+    text-align: justify;
+}
+.headingOfConnect{
+    text-align: center;
+}
+.socialIcon{
+    cursor: pointer;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.facebook{
+  background-color: #3A589B;
+  color: white;
+  border-radius: 100%;
+  padding: 0.5rem;
+}
+.twitter{
+    color: white;
+    background-color: #4086CD;
+    border-radius: 100%;
+    padding: 0.5rem;
+}
+.linkdin {
+    color: white;
+    background-color: #007AB9;
+    border-radius: 100%;
+    padding: 0.5rem; 
+}
+.instagram{
+    color: white;
+    background:linear-gradient(135deg, #B920AF , #F97B08);
+    border-radius: 100%;
+    padding: 0.5rem; 
+}
+.youtube{
+    color: white;
+    background-color: #C4302B;
+    border-radius: 100%;
+    padding: 0.5rem; 
+}
+.endTagOfInfosys{
+    font-size: 1rem;
+    text-align: center;
+}
+.endOfInfosysContainer{
+    align-items: center;
+    display: flex;
+    width: 15%;
+    margin: auto;
+   gap: 1rem;
+}
+.poweredBy{
+  color: grey;
+  font-size: 1.1rem;
+}
+.poweredImage{
+    width: 20%;
+    height: 20%;
+}

@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useContext } from "react";
 import styles from "./Company.module.css";
+import { LoginContext } from "../../Context_Api/Context";
+import { Navigate } from "react-router-dom";
+import InfosysComponents from "../Infosys_Components/InfosysComponents";
 
 function Comapny() {
+  const { infosys, setInfosys } = useContext(LoginContext);
+  const renderInfosysPage = () => {
+    setInfosys(true);
+  };
+  if (infosys === true) {
+    return (
+        <InfosysComponents />
+    );
+  }
   return (
     <div className={styles.mainContainerOfCompanyCom}>
       <h1 className={styles.CompanyHeadingCom}>Cool Places to Work</h1>
       <div className={styles.companyImagesCom}>
-        <div className={styles.imageCom}>
+        <div onClick={renderInfosysPage} className={styles.imageCom}>
           <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F6dc953ccca074ea9aae8089a93b62cfe.webp&w=256&q=75" />
           <img
             className={styles.companyLogoCom}
@@ -51,36 +63,36 @@ function Comapny() {
           <div className={styles.topImagesCom}>
             <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F851571ef1f3f4ce080d4415e6c672875.jpg&w=256&q=75" />
           </div>
-          <div  className={styles.topImagesCom}>
+          <div className={styles.topImagesCom}>
             <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2Fa6b108efd36c437ba35e058075ac03c8.png&w=256&q=75" />
           </div>
-          <div  className={styles.topImagesCom}>
+          <div className={styles.topImagesCom}>
             <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F9f53b7d4345d41ac9b657b726b6b3349.png&w=256&q=75" />
           </div>
-          <div  className={styles.topImagesCom}>
+          <div className={styles.topImagesCom}>
             <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F666b83a3c4974b4f92613fce536a4251.png&w=256&q=75" />
           </div>
-          <div  className={styles.topImagesCom}>
+          <div className={styles.topImagesCom}>
             <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F264470edd81541d190bc774a279534aa.png&w=256&q=75" />
           </div>
-          <div  className={styles.topImagesCom}>
+          <div className={styles.topImagesCom}>
             <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2Fab28f0af876f42cb96302faaea9e1671.png&w=256&q=75" />
           </div>
-          <div  className={styles.topImagesCom}>
+          <div className={styles.topImagesCom}>
             <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2Fa307d745fbbe46d3822e5b4e6f3fed55.png&w=256&q=75" />
           </div>
-          <div  className={styles.topImagesCom}>
+          <div className={styles.topImagesCom}>
             <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F3c1f15da69e44967b5369b7faf9f85b9.png&w=256&q=75" />
           </div>
-          <div  className={styles.topImagesCom}>
+          <div className={styles.topImagesCom}>
             <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F8ec12c71c03445248ec99942e16a812c.png&w=256&q=75" />
           </div>
-          <div  className={styles.topImagesCom}>
+          <div className={styles.topImagesCom}>
             <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F462aacd44957452ca3035febee7af2f6.webp&w=256&q=75" />
           </div>
         </div>
       </div>
-         <button className={styles.viewButtonCom}>View All</button>
+      <button className={styles.viewButtonCom}>View All</button>
     </div>
   );
 }
