@@ -1,3 +1,4 @@
+import AdityaBirla from "./Components/AdityaBirlaComponents/AdityaBirla";
 import Applicants from "./Components/Applicants/Applicants";
 import Comapny from "./Components/CompanyCool/Comapny";
 import Conduct from "./Components/ConductHackathon/Conduct";

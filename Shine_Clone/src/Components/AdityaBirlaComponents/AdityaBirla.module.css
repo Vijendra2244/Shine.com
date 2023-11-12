@@ -1,0 +1,17 @@
+.mainContainerOfBirlaPage{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+.linkOfBirla{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.listBirla{
+    text-decoration: none;
+    color: black;
+}
