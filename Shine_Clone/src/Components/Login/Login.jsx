@@ -1,6 +1,8 @@
 import React, { useContext, useState } from "react";
 import styles from "./Login.module.css";
 import { LoginContext } from "../../Context_Api/Context";
+import AllRoutes from "../DomainJobs/AllRoutes/AllRoutes";
+import { Link } from "react-router-dom";
 
 function Login() {
   const { login, setLogin } = useContext(LoginContext);
@@ -38,6 +40,7 @@ function Login() {
           X
         </button>
       </div>
+      
     </div>
   );
 }
