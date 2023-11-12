@@ -14,6 +14,8 @@ import PersonalDevelopment from '../../PopularCourses/Pages/PersonalDevelopment'
 import ITInformationTech from '../../PopularCourses/Pages/ITInformationTech'
 import HRHumanResources from '../../PopularCourses/Pages/HRHumanResources'
 import Manager from '../../PopularCourses/Pages/Manager'
+import Register from '../../RegisterPage/Register'
+import Login from '../../Login/Login'
 
 
 function AllRoutes() {
@@ -34,6 +36,7 @@ function AllRoutes() {
           <Route path="/itinformation" element={<ITInformationTech/>} />
           <Route path="/hrhuman" element={<HRHumanResources/>} />
           <Route path="/manager" element={<Manager/>} /> 
+         
          </Routes>
     </div>
   )

@@ -5,12 +5,18 @@ import { BsCart3 } from "react-icons/bs";
 import styles from "./Navbar.module.css";
 import Login from "../Login/Login";
 import { LoginContext } from "../../Context_Api/Context";
+import { Navigate } from "react-router-dom";
+import Register from "../RegisterPage/Register";
 
 function Navbar() {
-  const {login,setLogin} = useContext(LoginContext)
+  const {login,setLogin,register,setRegister} = useContext(LoginContext)
   const handleLogin = ()=>{
     setLogin(true)
   }  
+  const handleRegister = ()=>{
+    setRegister(true)
+  }
+  
   return (
     <>
       <div className={styles.navbarMainNavbar}>
@@ -35,12 +41,13 @@ function Navbar() {
           <button onClick={handleLogin} className={styles.loginButtonNavbar}>
             Login
           </button>
-          <button className={styles.registerButtonNavbar}>Register</button>
+          <button onClick={handleRegister} className={styles.registerButtonNavbar}>Register</button>
           <GrNotification />
           <BsCart3 />
         </div>
       </div>
       {login && <Login  /> }
+       {register && <Register/> }
     </>
   );
 }
