@@ -5,6 +5,7 @@ import CopyRight from "./Components/Copyright/CopyRight";
 import Domain from "./Components/DomainJobs/AllRoutes/Domain";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
+import InfosysComponents from "./Components/Infosys_Components/InfosysComponents";
 import LatestBlog from "./Components/LatestBlog/LatestBlog";
 import Navbar from "./Components/Navbar/Navbar";
 import Navigation from "./Components/Navigation/Navigation";
@@ -33,7 +34,6 @@ function App() {
       <LatestBlog/>
       <Footer />
       <CopyRight />
-     
     </>
   )
 }

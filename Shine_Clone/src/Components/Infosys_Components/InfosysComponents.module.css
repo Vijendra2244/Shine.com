@@ -1,0 +1,20 @@
+.navbarSection{
+    background-color: #F0F9FF;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding: 0.4rem;
+    justify-content: space-between;
+}
+.rightContainerOfInfosysNavbar{
+    width: 60%;
+    margin: auto;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.listOfInfosysNavbar{
+    text-decoration: none;
+    color: #232528;
+}
