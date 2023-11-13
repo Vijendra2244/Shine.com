@@ -7,3 +7,8 @@
 .swiperMainStyleSwipe:hover{
     cursor: pointer;
 }
+@media screen and(min-width:400px) and (max-width:1024px) {
+    .swiperMainStyleSwipe{
+        width: 100%;
+    }
+}
