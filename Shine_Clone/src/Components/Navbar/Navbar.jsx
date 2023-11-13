@@ -1,21 +1,24 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { BsSearch } from "react-icons/bs";
 import { GrNotification } from "react-icons/gr";
 import { BsCart3 } from "react-icons/bs";
+import { AiOutlineMenu } from "react-icons/ai";
 import styles from "./Navbar.module.css";
-import { LoginContext } from "../../Context_Api/Context";
-import Login from "./Components/Login";
+// import { LoginContext } from "../../Context_Api/Context";
+// import Login from "./Components/Login";
 
 function Navbar() {
-  const { login, setLogin } = useContext(LoginContext);
+ 
+  // const { login, setLogin } = useContext(LoginContext);
 
-  const handleLogin = () => {
-    setLogin(true);
-  };
+  // const handleLogin = () => {
+  //   setLogin(true);
+  // };
   return (
     <>
       <div className={styles.navbarMain}>
         <div className={styles.companyLogo}>
+        <AiOutlineMenu className={styles.menuIcon}></AiOutlineMenu>
           <img
             className={styles.CompanyImage}
             src="https://www.shine.com/next/static/images/shine-logo.png"
@@ -33,16 +36,13 @@ function Navbar() {
           </button>
         </div>
         <div className={styles.NavbarRigthSection}>
-          <button onClick={handleLogin}  className={styles.loginButton}>
-            Login
-          </button>
+          <button className={styles.loginButton}>Login</button>
           <button className={styles.registerButton}>Register</button>
           <GrNotification />
           <BsCart3 />
         </div>
       </div>
-       {login && <Login />}
-    
+      {/* {login && <Login />} */}
     </>
   );
 }
