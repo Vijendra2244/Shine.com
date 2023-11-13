@@ -24,3 +24,10 @@
     font-weight: bold;
     margin-bottom: 2rem;
 }
+@media screen and (max-width:1100px) {
+    .buttonConduct{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    } 
+}

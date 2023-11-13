@@ -28,4 +28,11 @@
     background-color: transparent;
     font-weight: bold;
   }
+  @media screen and (min-width:300px) and (max-width:1100px)  {
+    .cardContainerRemote{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  }
   

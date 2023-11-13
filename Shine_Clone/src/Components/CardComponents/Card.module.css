@@ -53,3 +53,21 @@ gap: 1rem;
  cursor: pointer;
  background-color: transparent;
 }
+@media screen and (min-width:250px ) and (max-width:1024px) {
+    .mainCardContainer{
+        width: 30%;
+    }
+    .haedingOfCompany{
+        font-size: 1rem;
+    }
+    .uiListOfCard{
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+    .stylesOfIcon{
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+}

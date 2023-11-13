@@ -44,4 +44,12 @@
  margin-bottom: 4rem;
  cursor: pointer;
 
+
+}
+@media screen and (max-width:1100px) {
+    .blogContainer{
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
