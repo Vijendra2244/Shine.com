@@ -24,6 +24,9 @@
 .trendHrLineTrending{
  margin-top: 0.6rem;
 }
+.trendingParaTag{
+    margin: 0.4;
+}
 @media screen and (max-width:1024px) {
     .trendListTrending{
         display: flex;
