@@ -4,16 +4,16 @@ import { GrNotification } from "react-icons/gr";
 import { BsCart3 } from "react-icons/bs";
 import { AiOutlineMenu } from "react-icons/ai";
 import styles from "./Navbar.module.css";
-// import { LoginContext } from "../../Context_Api/Context";
-// import Login from "./Components/Login";
+import { LoginContext } from "../../Context_Api/Context";
+import Login from "./Components/Login";
 
 function Navbar() {
  
-  // const { login, setLogin } = useContext(LoginContext);
+  const { login, setLogin } = useContext(LoginContext);
 
-  // const handleLogin = () => {
-  //   setLogin(true);
-  // };
+  const handleLogin = () => {
+    setLogin(true);
+  };
   return (
     <>
       <div className={styles.navbarMain}>
@@ -42,7 +42,7 @@ function Navbar() {
           <BsCart3 />
         </div>
       </div>
-      {/* {login && <Login />} */}
+      {login && <Login />}
     </>
   );
 }
