@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { BsSearch } from "react-icons/bs";
 import { GrNotification } from "react-icons/gr";
 import { BsCart3 } from "react-icons/bs";
@@ -8,7 +8,6 @@ import { LoginContext } from "../../Context_Api/Context";
 import Login from "./Components/Login";
 
 function Navbar() {
- 
   const { login, setLogin } = useContext(LoginContext);
 
   const handleLogin = () => {
@@ -17,8 +16,8 @@ function Navbar() {
   return (
     <>
       <div className={styles.navbarMain}>
-        <div className={styles.companyLogo}>
         <AiOutlineMenu className={styles.menuIcon}></AiOutlineMenu>
+        <div className={styles.companyLogo}>
           <img
             className={styles.CompanyImage}
             src="https://www.shine.com/next/static/images/shine-logo.png"
