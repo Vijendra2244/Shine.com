@@ -1,0 +1,26 @@
+.trendingMainTrending {
+   
+    display: flex;
+    width: 50%;
+    margin-left: 27%;
+    margin-top: 0.3rem;
+}
+.trendListTrending {
+    width: 65%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.trendingHeadingTrending{
+    font-weight: 600;
+    color: black;
+}
+.trendListTrending:hover{
+    cursor: pointer;
+}
+.trendListTrending > p{
+    color: grey;
+}
+.trendHrLineTrending{
+ margin-top: 0.6rem;
+}

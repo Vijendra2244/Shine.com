@@ -1,0 +1,86 @@
+.stylingBirlaLogo{
+    max-width: 100%;
+}
+.conatinerOfHomePageOfBirla{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.mainContainerOfBirlaHome{
+    width: 90%;
+    margin: auto;
+}
+.paraOfBirla{
+    text-align: justify;
+}
+.leftContainerOfBirla{
+    width: 50%;
+}
+.imageOfBirlaGroup{
+    max-width: 100%;
+}
+.facebook{
+    background-color: #3A589B;
+    color: white;
+    border-radius: 100%;
+    padding: 0.5rem;
+  }
+  .twitter{
+      color: white;
+      background-color: #4086CD;
+      border-radius: 100%;
+      padding: 0.5rem;
+  }
+  .linkdin {
+      color: white;
+      background-color: #007AB9;
+      border-radius: 100%;
+      padding: 0.5rem; 
+  }
+  .instagram{
+      color: white;
+      background:linear-gradient(135deg, #B920AF , #F97B08);
+      border-radius: 100%;
+      padding: 0.5rem; 
+  }
+  .youtube{
+      color: white;
+      background-color: #C4302B;
+      border-radius: 100%;
+      padding: 0.5rem; 
+  }
+  .connectWithUsBirla{
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .socialIconBirla{
+  cursor: pointer;
+  display: flex;
+  width: 40%;
+  margin: auto;
+  justify-content: space-between;
+  }
+  .rightContainerOfBirla{
+    width: 50%;
+
+  }
+ 
+  .endTagOfBirla{
+    font-size: 1rem;
+    text-align: center;
+}
+.endOfBirlaContainer{
+    align-items: center;
+    display: flex;
+    width: 15%;
+    margin: auto;
+   gap: 1rem;
+}
+.poweredBy{
+  color: grey;
+  font-size: 1.1rem;
+}
+.poweredImage{
+    width: 20%;
+    height: 20%;
+}

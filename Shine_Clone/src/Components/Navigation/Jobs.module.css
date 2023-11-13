@@ -1,0 +1,19 @@
+.mainNavigation {
+  z-index: 999;
+  position: relative;
+}
+.jobsMainNavigation {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  position: absolute;
+  padding: 0.6rem;
+  border-radius: 4px;
+  background-color: white;
+  left: 13%;
+}
+.listStyleNavigation{
+    list-style: none;
+}
+.listStyleNavigation:hover{
+    color: #7c44ff;
+    border-left: 2px solid #7c44ff;
+}

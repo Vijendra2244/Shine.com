@@ -6,10 +6,10 @@
   border-radius: 8px;
   background-color: white;
   display: flex;
-  position:absolute;
+  position: absolute;
 }
 .mainEmploye {
-    position: relative;
+  position: relative;
 }
 .ulList {
   margin: 0.5rem 0;

@@ -1,0 +1,36 @@
+.popularCoursesHeading{
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+.mainOfPopularCourses{
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #F4F2FF;
+}
+.routeOfPopularCourses{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.linkOfPopularCourses{
+    text-decoration: none;
+    color: rgb(30, 28, 28);
+}
+.linkOfPopularCourses:hover{
+    border-bottom: 2px solid #7c44ff;
+    color: black;
+    font-weight: bold;
+}
+.ViewOfBtnPopular{
+    width: 8%;
+    margin: auto;
+}
+.btnOfPopular{
+    color: #7c44ff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    background-color: transparent;
+}

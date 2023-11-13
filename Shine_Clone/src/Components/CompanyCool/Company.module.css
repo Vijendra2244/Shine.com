@@ -1,0 +1,62 @@
+.CompanyHeadingCom {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 2rem auto;
+}
+.companyImagesCom {
+  width: 85%;
+  margin: auto;
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+  align-items: center;
+  place-items: center;
+  overflow: hidden;
+  padding: 0.4rem;
+}
+
+.imageCom {
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.companyLogoCom {
+  margin: auto;
+}
+.imageCom:hover {
+  cursor: pointer;
+}
+.topCompaniesCom {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 2rem 1rem auto;
+}
+.topCompaniesHiringCom {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 68%;
+  gap: 1.5rem;
+  margin: auto;
+  padding: 0.5rem;
+}
+.topImagesCom {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 1.5rem 0.5rem;
+}
+.topImagesCom > img {
+   width: 80%;
+    margin: auto;
+}
+.viewButtonCom{
+    font-size: 0.9rem;
+    color: #7c44ff;
+    font-weight: 800;
+    margin-left: 48% ;
+    margin-bottom: 2rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
