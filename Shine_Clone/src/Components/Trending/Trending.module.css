@@ -24,3 +24,10 @@
 .trendHrLineTrending{
  margin-top: 0.6rem;
 }
+@media screen and (max-width:1024px) {
+    .trendList{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    } 
+} 
