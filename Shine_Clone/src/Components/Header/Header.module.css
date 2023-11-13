@@ -11,23 +11,34 @@
   margin-left: 60%;
   justify-content: space-between;
   align-items: center;
- 
 }
 .headerRight :hover {
   cursor: pointer;
 }
 
-.headerItem{
-    display: flex;
-    align-items: center;
-
+.headerItem {
+  display: flex;
+  align-items: center;
 }
 
-.headerItem:hover{
-   border-bottom: 2px solid #7C44FF;
-   transition: all 0.1s ease-in;
+.headerItem:hover {
+  border-bottom: 2px solid #7c44ff;
+  transition: all 0.1s ease-in;
 }
-.paraTagOfHeaders{
-    font-weight: bold;
-    color:  #5d5d60e8;
+.paraTagOfHeaders {
+  font-weight: bold;
+  color: #5d5d60e8;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .headerMain {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .headerRight {
+    width: 40%;
+  }
 }

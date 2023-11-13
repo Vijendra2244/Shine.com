@@ -1,0 +1,26 @@
+.conductMain{
+    background-color: #766ABB;
+    padding: 1rem;
+}
+.headingOfConduct{
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+}
+.buttonConduct{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
+}
+.buttonOfConduct{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}

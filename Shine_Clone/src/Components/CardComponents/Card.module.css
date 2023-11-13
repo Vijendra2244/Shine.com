@@ -1,0 +1,55 @@
+.mainCardContainer {
+  width: 25%;
+  padding: 0.8rem;
+  cursor: pointer;
+ border-radius: 8px;
+ background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.haedingOfCompany {
+  margin: 0;
+  font-size: 1.5rem;
+  color: black;
+}
+.companyName
+{
+    margin: 0.4rem;
+    color: grey;
+}
+.experianceyears{
+
+display: flex;
+gap: 1rem;
+
+}
+.stylesOfIcon{
+    display: flex;
+    gap: 0.4rem;
+}
+.stylesOfIcon > p {
+    margin: 0.6rem;
+}
+.uiListOfCard{
+     gap: 1.4rem;
+    display: flex;
+    list-style-type: square;
+    
+}
+.uiListOfCard > li {
+    font-size: 0.9rem;
+    color: grey;
+}
+.buttonInterested{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+.buttonStyling{
+ border: none;
+ outline: none;
+ border-radius: 8px;
+ font-weight: bold;
+ color: #7c44ff;
+ cursor: pointer;
+ background-color: transparent;
+}

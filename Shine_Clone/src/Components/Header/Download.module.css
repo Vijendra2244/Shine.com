@@ -2,8 +2,10 @@
   font-size: 1.2rem;
   font-weight: bold;
 }
+
 .mainDonwloadCont {
   position: relative;
+
 }
 .descDownload {
   font-size: 1rem;
@@ -14,6 +16,7 @@
 .DownloadMain {
   width: 20%;
   margin-left: 49%;
+  background-color: white;
   padding: 0.5rem;
   position: absolute;
   background-color: white;

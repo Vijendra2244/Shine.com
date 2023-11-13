@@ -1,0 +1,31 @@
+.mainApplicantRemote {
+    
+    padding: 1rem;
+  }
+  .headingOfRemote {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2.8rem;
+  }
+  .cardContainerRemote{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+    justify-content: space-around;
+  }
+  .buttonViewRemote {
+    width: 10%;
+    margin: auto;
+  }
+  .viewBtnForRemote {
+      cursor: pointer;
+    padding: 0.8rem;
+    border-radius: 8px;
+    color: #7c44ff;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-weight: bold;
+  }
+  

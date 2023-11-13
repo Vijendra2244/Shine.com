@@ -1,26 +1,27 @@
-.trendingMain {
+.trendingMainTrending {
    
     display: flex;
     width: 50%;
     margin-left: 27%;
     margin-top: 0.3rem;
 }
-.trendList {
+.trendListTrending {
     width: 65%;
      display: flex;
      justify-content: space-around;
+     align-items: center;
 }
-.trendingHeading{
+.trendingHeadingTrending{
     font-weight: 600;
     color: black;
 }
-.trendList:hover{
+.trendListTrending:hover{
     cursor: pointer;
 }
-.trendList > p{
+.trendListTrending > p{
     color: grey;
 }
-.trendHrLine{
+.trendHrLineTrending{
  margin-top: 0.6rem;
 }
 @media screen and (max-width:1024px) {

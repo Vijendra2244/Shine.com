@@ -1,0 +1,22 @@
+.copyRightMainCopy {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem auto;
+}
+.queriesCopy {
+  display: flex;
+}
+.queriesCopy > a > p {
+  font-size: 0.8rem;
+  color: grey;
+  margin-left: 0.2rem;
+}
+.copyCopy {
+  color: grey;
+  font-size: 0.9rem;
+}
+.queriesCopy > a {
+  text-decoration: none;
+}
