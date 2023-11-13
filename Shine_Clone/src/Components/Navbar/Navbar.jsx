@@ -2,52 +2,47 @@ import React, { useContext, useState } from "react";
 import { BsSearch } from "react-icons/bs";
 import { GrNotification } from "react-icons/gr";
 import { BsCart3 } from "react-icons/bs";
+import { AiOutlineMenu } from "react-icons/ai";
 import styles from "./Navbar.module.css";
-import Login from "../Login/Login";
 import { LoginContext } from "../../Context_Api/Context";
-import { Navigate } from "react-router-dom";
-import Register from "../RegisterPage/Register";
+import Login from "./Components/Login";
 
 function Navbar() {
-  const {login,setLogin,register,setRegister} = useContext(LoginContext)
-  const handleLogin = ()=>{
-    setLogin(true)
-  }  
-  const handleRegister = ()=>{
-    setRegister(true)
-  }
-  
+ 
+  const { login, setLogin } = useContext(LoginContext);
+
+  const handleLogin = () => {
+    setLogin(true);
+  };
   return (
     <>
-      <div className={styles.navbarMainNavbar}>
-        <div className={styles.companyLogoNavbar}>
+      <div className={styles.navbarMain}>
+        <div className={styles.companyLogo}>
+        <AiOutlineMenu className={styles.menuIcon}></AiOutlineMenu>
           <img
-            className={styles.CompanyImageNavbar}
+            className={styles.CompanyImage}
             src="https://www.shine.com/next/static/images/shine-logo.png"
             alt="Shine_Company_Logo"
           />
         </div>
-        <div className={styles.inputOfNavbarNavbar}>
+        <div className={styles.inputOfNavbar}>
           <input
-            className={styles.inputOfSearchBarNavbar}
+            className={styles.inputOfSearchBar}
             type="text"
             placeholder="Job title,Skills"
           />
-          <button className={styles.SearchButtonNavbar}>
+          <button className={styles.SearchButton}>
             <BsSearch />
           </button>
         </div>
-        <div className={styles.NavbarRigthSectionNavbar}>
-          <button onClick={handleLogin} className={styles.loginButtonNavbar}>
-            Login
-          </button>
-          <button onClick={handleRegister} className={styles.registerButtonNavbar}>Register</button>
+        <div className={styles.NavbarRightSection}>
+          <button className={styles.loginButton}>Login</button>
+          <button className={styles.registerButton}>Register</button>
           <GrNotification />
           <BsCart3 />
         </div>
       </div>
-      {login && <Login  /> }
-       {register && <Register/> }
+      {login && <Login />}
     </>
   );
 }

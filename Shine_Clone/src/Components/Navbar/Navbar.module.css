@@ -65,3 +65,32 @@
   transition: all 0.5s ease-in;
   cursor: pointer;
 }
+.menuIcon{
+  display: none;
+}
+
+@media  screen and  (max-width:950px) {
+  .inputOfNavbar,.loginButton,.registerButton{
+    display: none;
+  }
+  .navbarMain{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .menuIcon{
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .companyLogo{
+    display: flex;
+    gap:0.3rem;
+    align-items: center;
+  }
+  .CompanyImage{
+    width: 35%;
+  }
+}
