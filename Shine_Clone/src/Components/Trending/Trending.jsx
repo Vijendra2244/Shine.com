@@ -8,10 +8,10 @@ function Trending() {
             <h2 className={styles.trendingHeading}>Trending:</h2>
         </div>
         <div className={styles.trendList}>
-            <p>Node js |</p>
-            <p>Android |</p>
-            <p>Finance |</p>
-            <p>Sales |</p>
+            <p>Node js </p>
+            <p>Android </p>
+            <p>Finance </p>
+            <p>Sales </p>
             <p>Business Development</p>
         </div>
      </div>
