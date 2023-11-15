@@ -38,6 +38,7 @@ gap: 1rem;
 .uiListOfCard > li {
     font-size: 0.9rem;
     color: grey;
+    margin: 1rem;
 }
 .buttonInterested{
     display: flex;

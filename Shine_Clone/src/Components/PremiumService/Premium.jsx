@@ -15,9 +15,9 @@ function Premium() {
     },
     {
       img: "https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticlearn.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1640925161_7427.png&w=384&q=75",
-      heading: "Featured Profile",
+      heading: "Featured Profile updation...",
       description:
-        "Get more visibility in the recruiter searches by getting a priority applicant tag with this  service of our",
+        "Get more visibility in the recruiter searches by getting a priority applicant tag with this  service of our and also connect to recruiters",
       price: " ₹ 1999",
       explore: "Explore",
       expert: "Talk To Expert",
@@ -26,7 +26,7 @@ function Premium() {
       img: "https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticlearn.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1640940094_8952.png&w=384&q=75",
       heading: "Application Booster",
       description:
-        "Priority applicant service to highlight and circulate your profile to the recruiter of your choice",
+        "Priority applicant service to highlight and circulate your profile to the recruiter of your choice and connect to hr",
       price: " ₹ 3099",
       explore: "Explore",
       expert: "Talk To Expert",
@@ -42,7 +42,7 @@ function Premium() {
             <div className={styles.containerOfPremiumCourses}>
               <h1>{item.heading}</h1>
               <p className={styles.descriptionOfPremium}>{item.description}</p>
-              <p>{item.price}</p>
+              <p className={styles.itemPrice}>{item.price}</p>
               <div className={styles.buttonOfExperts}>
                 <button className={styles.buttonOfPremiumExplore}>{item.explore}</button>
                 <button className={styles.buttonOfPremiumExpert}> <BiSolidPhoneCall/>{item.expert}</button>

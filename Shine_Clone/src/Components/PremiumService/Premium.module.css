@@ -10,7 +10,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     cursor: pointer;
     overflow: hidden;
-   
+   margin: 1rem;
 }
 .imgOfPremium{
     width: 100%;
@@ -48,6 +48,7 @@
  }
  .descriptionOfPremium{
     color: grey;
+    margin: 0.6rem;
  }
  .viewBtnOfPremium{
    width: 10%;
@@ -61,6 +62,9 @@
    outline: none;
   
    background-color: transparent;
+ }
+ .itemPrice{
+    margin: 0.6rem;
  }
  @media  screen and (max-width:1100px) {
     .mainPremiumdata{
