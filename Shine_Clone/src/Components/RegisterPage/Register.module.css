@@ -17,12 +17,14 @@
   padding: 1rem;
   background-color: white;
   font-size: 1rem;
+  margin: 1rem;
 }
 .rightContainerOfSpanTag {
   color: #0000cc;
 }
 .headingOfRightContainer {
   color: #ff6633;
+  margin: 0.7rem;
 }
 .supermanImage {
   max-width: 50%;
@@ -40,12 +42,13 @@
 
 .containerOfResume {
   width: 70%;
-  margin: auto;
+  margin: 1rem auto;
 }
 .registerWithResume {
   color: #363e4b;
   text-align: center;
   font-size: 1.5rem;
+  margin-top: 1rem;
   margin-bottom: 0.3rem;
 }
 .registerAutoFill {
@@ -55,6 +58,7 @@
 }
 .butonOfUlpoadResume {
   border: none;
+  margin-top: 1rem;
   outline: none;
   padding: 0.6rem 1.5rem;
   border-radius: 4px;
@@ -70,11 +74,13 @@
   width: 50%;
   background-color: white;
   padding: 1rem;
+  margin-top: 2rem;
+ 
 }
 .registerPageHeading {
   color: #304773;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
 }
 .formTimingInstruct {

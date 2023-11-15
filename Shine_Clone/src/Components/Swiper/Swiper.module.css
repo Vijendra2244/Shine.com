@@ -7,8 +7,22 @@
 .swiperMainStyleSwipe:hover{
     cursor: pointer;
 }
-@media screen and(min-width:400px) and (max-width:1024px) {
-    .swiperMainStyleSwipe{
-        width: 100%;
+@media (min-width: 768px) {
+    .swiperMainStyleSwipe {
+      max-width: 768px;
+      margin: 0 auto;
     }
-}
+  }
+  
+  @media (min-width: 992px) {
+    .swiperMainStyleSwipe {
+      max-width: 992px;
+      
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .swiperMainStyleSwipe {
+      max-width: 100%;  
+    }
+  }
