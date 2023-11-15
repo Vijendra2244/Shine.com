@@ -165,3 +165,20 @@
   padding: 0.4rem;
   font-weight: bold;
 }
+@media screen  and (max-width:600px){
+  .mainContainerOfRegister{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .leftContainerOfRegister{
+    width: 80%;
+  }
+  .rightContainerOfRegister{
+    width: 100%;
+  }
+  .btnOfX{
+    position: absolute;
+    left: 90%;
+  }
+}

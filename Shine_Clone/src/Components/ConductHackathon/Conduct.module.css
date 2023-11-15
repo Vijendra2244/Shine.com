@@ -32,3 +32,10 @@
         flex-wrap: wrap;
     } 
 }
+@media screen and (max-width:600px){
+    .buttonConduct{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+}

@@ -40,3 +40,15 @@
 ul > a {
   text-decoration: none;
 }
+@media screen and (max-width:1100px){
+  .FooterLinksFoot{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+@media screen and (max-width:600px){
+  .FooterLinksFoot{
+    display: flex;
+    flex-direction: column;
+  }
+}

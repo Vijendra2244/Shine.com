@@ -69,4 +69,31 @@
     flex-wrap: wrap;
     width: 35%;
   }
+  .headingOfCourses{
+    font-size: 1rem;
+  }
+  .popularCoursesMainConatiner{
+    display: flex;
+  }
+  .ButtonOfPopularCourses{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width:600px) {
+  .cardOfPopularCourses{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 85%;
+  }
+  .headingOfCourses{
+    font-size: 0.8rem;
+  }
+  .ButtonOfPopularCourses{
+    display: flex;
+    justify-content: space-between;
+
+  }
 }

@@ -68,8 +68,22 @@
  }
  @media  screen and (max-width:1100px) {
     .mainPremiumdata{
-        width: 40%;
+        width: 50%;
         display: flex;
         flex-wrap: wrap;
+    }
+   .premiumMainCont{
+    width: 100%;
+   
+   }
+ }
+ @media screen and (max-width:600px) {
+    .mainPremiumdata{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .premiumMainCont{
+        width: 100%;
     }
  }

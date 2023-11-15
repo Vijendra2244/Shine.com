@@ -99,3 +99,8 @@
   color: black;
   font-weight: bold;
 }
+@media screen and (max-width:600px) {
+  .containerOne{
+    width: 70%;
+  }
+}

@@ -22,8 +22,8 @@ function Card({Heading,Company,years ,location,early,regular,NotInterested,Apply
     
             
         <ul className={styles.uiListOfCard}>
-            <li>{early}</li>
-            <li>{regular}</li>
+            <li className={styles.listEarly}>{early}</li>
+            <li className={styles.listEarly}>{regular}</li>
         </ul>
         
          <div className={styles.buttonInterested}>
