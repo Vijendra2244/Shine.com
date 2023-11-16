@@ -6,7 +6,7 @@ import AllRouterInfosys from "./AllRouterInfosys/AllRouterInfosys";
 function InfosysComponents() {
   return (
     <div >
-      <div className={styles.navbarSection}>
+      <div  className={styles.navbarSection}>
         <img src="https://staticrect.shine.com/r/m/microsite/images/infosys/header_images/infosys_logo-_1.png" alt="" />
         <div className={styles.rightContainerOfInfosysNavbar}>
 

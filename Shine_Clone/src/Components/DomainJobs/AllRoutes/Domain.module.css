@@ -34,6 +34,10 @@
 }
 @media screen and (min-width:500px) and (max-width:1100px) {
     .linkDomainJobs{
-        width: 70%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 0.9rem;
+        justify-content: space-between;
     }
 }

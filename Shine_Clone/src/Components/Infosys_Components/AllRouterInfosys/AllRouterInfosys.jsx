@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Router, Routes } from "react-router-dom";
 import Home from "../InfosysPages/Home";
 import WhyInfosys from "../InfosysPages/WhyInfosys";
 import RestartWithInfosys from "../InfosysPages/RestartWithInfosys";
@@ -18,7 +18,6 @@ function AllRouterInfosys() {
         <Route path="/restartwithinfosys" element={<RestartWithInfosys />} />
         <Route path="/jobsinfosys" element={<JobsInfosys />} />
         <Route path="/visitus" element={<VisitUs />} />
-       
       </Routes>
     </div>
   );
